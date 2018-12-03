@@ -1,0 +1,32 @@
+body{
+  background: #44B3C2;
+}
+.login-main{
+  margin-top: 150px;
+  z-index: 1;
+}
+.heading-image{
+  top: 0%;
+  left: 50%;
+  opacity: 0.9;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  background: #2B5377;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.heading-image i{
+  font-size: 60px;
+  margin-top: 30px;
+}
+.input-group-prepend span{
+  font-size: 20px;
+  color: #9B9FAB;
+}
+.options{
+  font-size: 15px;
+}
+.copyright-main{
+  font-size: 13px;
+}

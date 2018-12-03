@@ -1,0 +1,58 @@
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 offset-md-4 col-10 offset-1 login-main border rounded pb-4 pt-5">
+      <form (submit)="loginUser($event)">
+        <div class="row">
+          <div class="col-md-12 col-12 mt-5">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white border-0 p-3"><i class="fa fa-user"></i></span>
+              </div>
+              <input type="text" class="form-control border-0 pl-3" placeholder="Username"
+                     aria-describedby="validationTooltipUsernamePrepend" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-12 mt-3">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white border-0 p-3" id="validationTooltipUsernamePrepend"><i
+                  class="fa fa-lock" aria-hidden="true"></i></span>
+              </div>
+              <input type="password" class="form-control border-0 pl-3 pb-0" id="validationTooltipUsername"
+                     placeholder="*******" aria-describedby="validationTooltipUsernamePrepend" required>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-12 mt-3">
+            <button type="submit" class="btn btn-info rounded-0 w-100">LOGIN</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-12 mt-3 options">
+            <div class="row">
+              <div class="col-md-6 col-12 pl-4">
+                <div class="custom-control custom-checkbox mr-sm-2">
+                  <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                  <label class="custom-control-label text-white" for="customControlAutosizing">Remember me</label>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 pl-4">
+                <a href="#" class="text-white"><i>Forgot Password?</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-4 offset-md-4 col-12 text-white text-center mt-2 copyright-main">
+      <p>Copyright © 2019 Hisaab,Inc</p>
+    </div>
+  </div>
+</div>
+</body>
+
+
